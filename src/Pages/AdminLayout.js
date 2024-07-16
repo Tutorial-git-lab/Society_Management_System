@@ -166,9 +166,7 @@ const AdminLayout = () => {
                 </div>
 
                 <div className="col-8 d-flex-col border border-primary">
-                  <div className="container-fluid bg-success border-primary">
-                    {renderComponent()}
-                  </div>
+                  <div className="container">{renderComponent()}</div>
                 </div>
               </div>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function MemberLoginArea() {
   return (
@@ -37,7 +38,7 @@ export default function MemberLoginArea() {
           </button>
         </div>
         <div className="text-center">
-          <a href="">Forgot Password</a>
+          <Link to="forgotPassword">Forgot Password</Link>
         </div>
       </form>
     </>

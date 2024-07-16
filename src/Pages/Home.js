@@ -3,13 +3,13 @@ import MemberLoginArea from "./MemberLoginArea";
 export const Home = () => {
   return (
     <>
-      <div className="container-fluid my-1 border">
+      <div className="container-fluid my-0 border">
         <div className="row">
           <div className=" col-3 d-flex-col">
             <MemberLoginArea />
 
-            <div className="container">
-              <div className="text-center mx-1 me-1 my-1 bg-success">
+            <div className="container my-3">
+              <div className="text-center mx-1 me-1 my-1 bg-warning">
                 <a href="societyList">Society List</a>
               </div>
               <div className="text-center mx-1 me-1 my-1 ">

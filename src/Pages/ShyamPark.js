@@ -1,7 +1,7 @@
 import React from "react";
 import MemberLoginArea from "./MemberLoginArea";
 
-export default function SellList() {
+export default function ShyamPark() {
   return (
     <div className="container-fluid my-0 border">
       <div className="row">
@@ -26,7 +26,7 @@ export default function SellList() {
 
         <div className="col-9 flex-col">
           <div className="text-center text-white my-2 bg-success">
-            <h6>TOTAL SELL RECORD-0</h6>
+            <h6>Shyam Park</h6>
           </div>
         </div>
       </div>

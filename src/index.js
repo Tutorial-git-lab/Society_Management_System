@@ -6,7 +6,6 @@ import Search from "./Pages/Search";
 import RentList from "./Pages/RentList";
 import SellList from "./Pages/SellList";
 import Admin from "./Pages/Admin";
-import ContactUs from "./Pages/ContactUs";
 import Header from "./Pages/Header";
 import { Home } from "./Pages/Home";
 import AdminLayout from "./Pages/AdminLayout";
@@ -19,12 +18,17 @@ import Complain from "./Pages/Complain";
 import SellHouseReport from "./Pages/SellHouseReport";
 import RentHouseReport from "./Pages/RentHouseReport";
 import LogOut from "./Pages/LogOut";
+import SocietyList from "./Pages/SocietyList";
+import PavanCity from "./Pages/PavanCity";
+import ShyamPark from "./Pages/ShyamPark";
+import Contact from "./Pages/ContactUs";
+import ForgotPassword from "./Pages/ForgotPassword";
 export default function App() {
   return (
     <>
       <div className="containe-fluid p-1">
         <BrowserRouter>
-          <div className="container-fluid  my-2 border">
+          <div className="container-fluid  my-1  border">
             <div className="row">
               <div className="d-flex-col">
                 <Header />
@@ -39,7 +43,7 @@ export default function App() {
                 <Route exact path="rentList" element={<RentList />} />
                 <Route exact path="sellList" element={<SellList />} />
                 <Route exact path="admin" element={<Admin />} />
-                <Route exact path="contactUs" element={<ContactUs />} />
+                <Route exact path="contactUs" element={<Contact />} />
               </Route>
               <Route exact path="/adminLayout" element={<AdminLayout />}>
                 <Route exact path="addSociety" element={<AddSociety />} />
@@ -61,6 +65,14 @@ export default function App() {
                 \
                 <Route exact path="logout" element={<LogOut />} />
               </Route>
+              <Route exact path="societyList" element={<SocietyList />}></Route>
+              <Route exact path="pawanCity" element={<PavanCity />}></Route>
+              <Route exact path="shyamPark" element={<ShyamPark />}></Route>
+              <Route
+                exact
+                path="forgotPassword"
+                element={<ForgotPassword />}
+              ></Route>
             </Routes>
           </div>
         </BrowserRouter>
