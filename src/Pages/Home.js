@@ -5,24 +5,23 @@ export const Home = () => {
     <>
       <div className="container-fluid my-1 border">
         <div className="row">
-          <div className=" col-4 d-flex-col">
-            <div className="container p-3 row">
-              <MemberLoginArea />
-            </div>
+          <div className=" col-3 d-flex-col">
+            <MemberLoginArea />
+
             <div className="container">
-              <div className="text-center mx-5 my-1">
+              <div className="text-center mx-1 me-1 my-1 bg-success">
                 <a href="societyList">Society List</a>
               </div>
-              <div className="text-center mx-5 my-1 ">
+              <div className="text-center mx-1 me-1 my-1 ">
                 <a href="shyamPark">Shyam Park</a>
               </div>
-              <div className="text-center mx-5 my-1 ">
+              <div className="text-center mx-1 me-1 my-1 ">
                 <a href="pawanCity">Pawan City</a>
               </div>
             </div>
           </div>
 
-          <div className="col-8 flex-col">
+          <div className="col-9 flex-col">
             <div
               id="carouselExampleAutoplaying"
               class="carousel slide"

@@ -3,13 +3,13 @@ import React from "react";
 export default function MemberLoginArea() {
   return (
     <>
-      <form className="border border-success  my-3">
-        <div className="text-center my-2">
+      <form className="my-1">
+        <div className="text-center my-2 bg-success">
           <h5>Member Login Area</h5>
         </div>
         <div class="mb-3 my-3">
           <label for="exampleInputEmail1" class="form-label col-4 text-end">
-            Login Name:
+            <strong>Name:</strong>
           </label>
           <input
             type="text"
@@ -21,13 +21,13 @@ export default function MemberLoginArea() {
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label col-4 text-end">
-            Password:
+            <strong>Password:</strong>
           </label>
           <input
             type="password"
             class="col-8"
             id="exampleInputPassword1"
-            placeholder="Enter your password"
+            placeholder="Enter password"
           />
         </div>
 

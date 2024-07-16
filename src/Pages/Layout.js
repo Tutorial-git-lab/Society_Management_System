@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <div className="container d-flex   align-item-center ">
+      <div className="container-fluid d-flex align-item-center ">
         <nav className="navbar navbar-expand-lg p-0 ">
           <div className="container-fluid ">
             {/* <a className="navbar-brand " href="#">
